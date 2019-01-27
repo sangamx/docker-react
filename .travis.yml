@@ -6,4 +6,4 @@ before_install:
  - docker build -t -f ankur111/docker-react Dockerfile.dev .
 
 script:
- - docker run ankur111/docker-react npm runt test -- --coverage
+ - docker run ankur111/docker-react npm run test -- --coverage
